@@ -88,7 +88,7 @@ _Activacion del perfil de Test unitario_
 
 ```
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {H2TestProfileJPAConfig.class, CoreMipresApplication.class})
+@SpringBootTest(classes = {H2TestProfileJPAConfig.class, CoreApplication.class})
 @EnableConfigurationProperties
 @ActiveProfiles("test")
 public class ReporteServiceTest {
