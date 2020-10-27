@@ -101,7 +101,7 @@ _Primeramente creamos el objeto con todos los datos que necesitaremos._
 listReport = new ArrayList<Reporte>();
     Reporte reporte = new Reporte();
     reporte.setId(28873560L);
-    reporte.setNumeroPrescripcion("655262");
+    reporte.setNumero("655262");
     reporte.setTecnologia(new Tecnologia());
     reporte.setPaciente(new Paciente());
     reporte.setEntrega(new Entrega());
